@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Getting Started</title>
+    <script src="https://unpkg.com/lodash@4.17.20"></script>
+  </head>
+  <body>
+    <div class="bg-blue-900 flex items-center space-x-4">
+        <h1 class="text-white px-4 py-2">Lingo</h1>
+        <button class="rounded-t-lg px-4 py-2 font-semibold text-sm bg-yellow-400 text-white shadow-sm start-game">
+            Start game
+        </button>
+        <div>
+            Game state: <span class="game-state px-4 py-2 font-semibold text-sm bg-cyan-500 text-white rounded-full shadow-sm"></span>
+        </div>
+    </div>
+    <div class="current-word"></div>
+    <div class="win-message"></div>
+
+    <script src="./dist/bundle.js"></script>
+  </body>
+</html>
